@@ -77,6 +77,18 @@
     .girl-info button:hover {
       background-color: #ff3399;
     }
+
+    @media (max-width: 768px) {
+      .girl-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .girl-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
   </style>
 </head>
 <body>
