@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wybierz swoją dziewczynę</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    .girl-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .girl-card {
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s;
+    }
+
+    .girl-card:hover {
+      transform: scale(1.03);
+    }
+
+    .girl-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .girl-info {
+      padding: 15px;
+    }
+
+    .girl-info h2 {
+      margin: 0;
+      font-size: 1.4em;
+    }
+
+    .girl-info button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: #e60073;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .girl-info button:hover {
+      background-color: #ff3399;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wybierz swoją dziewczynę</h1>
+    <p>One czekają na twoje pierwsze słowo... Która ci się oprze?</p>
+  </header>
+
+  <div class="girl-grid">
+    <div class="girl-card">
+      <img src="1.jpg" alt="Dziewczyna 1">
+      <div class="girl-info">
+        <h2>Natalia</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="2.jpg" alt="Dziewczyna 2">
+      <div class="girl-info">
+        <h2>Sara</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="3.jpg" alt="Dziewczyna 3">
+      <div class="girl-info">
+        <h2>Emily</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="4.jpg" alt="Dziewczyna 4">
+      <div class="girl-info">
+        <h2>Julia</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="5.jpg" alt="Dziewczyna 5">
+      <div class="girl-info">
+        <h2>Chloe</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="6.jpg" alt="Dziewczyna 6">
+      <div class="girl-info">
+        <h2>Luna</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="7.jpg" alt="Dziewczyna 7">
+      <div class="girl-info">
+        <h2>Olivia</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+    <div class="girl-card">
+      <img src="8.jpg" alt="Dziewczyna 8">
+      <div class="girl-info">
+        <h2>Ava</h2>
+        <button>Wybierz</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
